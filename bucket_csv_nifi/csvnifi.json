@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1743181643776,
+    "description" : "",
+    "identifier" : "csvnifi",
+    "lastModifiedTimestamp" : 1743181643776,
+    "name" : "csv_nifi",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
