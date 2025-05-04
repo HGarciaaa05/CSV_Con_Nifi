@@ -12,8 +12,8 @@
     "comments" : "",
     "componentType" : "PROCESS_GROUP",
     "connections" : [ {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
+      "backPressureDataSizeThreshold" : "2 GB",
+      "backPressureObjectThreshold" : 1000000,
       "bends" : [ ],
       "componentType" : "CONNECTION",
       "destination" : {
@@ -42,8 +42,8 @@
       },
       "zIndex" : 0
     }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
+      "backPressureDataSizeThreshold" : "2 GB",
+      "backPressureObjectThreshold" : 1000000,
       "bends" : [ ],
       "componentType" : "CONNECTION",
       "destination" : {
@@ -72,8 +72,8 @@
       },
       "zIndex" : 0
     }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
+      "backPressureDataSizeThreshold" : "2 GB",
+      "backPressureObjectThreshold" : 1000000,
       "bends" : [ ],
       "componentType" : "CONNECTION",
       "destination" : {
@@ -162,8 +162,8 @@
       },
       "zIndex" : 0
     }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
+      "backPressureDataSizeThreshold" : "2 GB",
+      "backPressureObjectThreshold" : 1000000,
       "bends" : [ ],
       "componentType" : "CONNECTION",
       "destination" : {
