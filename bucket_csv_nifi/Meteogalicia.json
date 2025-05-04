@@ -1271,6 +1271,267 @@
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
       "groupIdentifier" : "flow-contents-group",
+      "identifier" : "d0e8033e-fe77-3c5e-989b-a80e121dc1c7",
+      "maxBackoffPeriod" : "10 mins",
+      "name" : "PutSFTP",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 208.0,
+        "y" : 856.0
+      },
+      "properties" : {
+        "Port" : "22",
+        "Create Directory" : "false",
+        "Conflict Resolution" : "NONE",
+        "Disable Directory Listing" : "false",
+        "Connection Timeout" : "30 sec",
+        "Dot Rename" : "true",
+        "Strict Host Key Checking" : "false",
+        "Hostname" : "hadoop.cesga.es",
+        "Reject Zero-Byte Files" : "true",
+        "Remote Path" : "/home/xunta/edu/a086/datasets_meteogalicia_provincia",
+        "Use Compression" : "false",
+        "Send Keep Alive On Timeout" : "true",
+        "Data Timeout" : "30 sec",
+        "Username" : "xuedua086",
+        "Batch Size" : "500"
+      },
+      "propertyDescriptors" : {
+        "Remote Owner" : {
+          "displayName" : "Remote Owner",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Remote Owner",
+          "sensitive" : false
+        },
+        "Port" : {
+          "displayName" : "Port",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Port",
+          "sensitive" : false
+        },
+        "proxy-configuration-service" : {
+          "displayName" : "Proxy Configuration Service",
+          "dynamic" : false,
+          "identifiesControllerService" : true,
+          "name" : "proxy-configuration-service",
+          "sensitive" : false
+        },
+        "Create Directory" : {
+          "displayName" : "Create Directory",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Create Directory",
+          "sensitive" : false
+        },
+        "Conflict Resolution" : {
+          "displayName" : "Conflict Resolution",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Conflict Resolution",
+          "sensitive" : false
+        },
+        "Ciphers Allowed" : {
+          "displayName" : "Ciphers Allowed",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Ciphers Allowed",
+          "sensitive" : false
+        },
+        "Disable Directory Listing" : {
+          "displayName" : "Disable Directory Listing",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Disable Directory Listing",
+          "sensitive" : false
+        },
+        "Temporary Filename" : {
+          "displayName" : "Temporary Filename",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Temporary Filename",
+          "sensitive" : false
+        },
+        "Remote Group" : {
+          "displayName" : "Remote Group",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Remote Group",
+          "sensitive" : false
+        },
+        "Private Key Passphrase" : {
+          "displayName" : "Private Key Passphrase",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Private Key Passphrase",
+          "sensitive" : true
+        },
+        "Connection Timeout" : {
+          "displayName" : "Connection Timeout",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Connection Timeout",
+          "sensitive" : false
+        },
+        "Permissions" : {
+          "displayName" : "Permissions",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Permissions",
+          "sensitive" : false
+        },
+        "Dot Rename" : {
+          "displayName" : "Dot Rename",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Dot Rename",
+          "sensitive" : false
+        },
+        "Last Modified Time" : {
+          "displayName" : "Last Modified Time",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Last Modified Time",
+          "sensitive" : false
+        },
+        "Strict Host Key Checking" : {
+          "displayName" : "Strict Host Key Checking",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Strict Host Key Checking",
+          "sensitive" : false
+        },
+        "Password" : {
+          "displayName" : "Password",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Password",
+          "sensitive" : true
+        },
+        "Hostname" : {
+          "displayName" : "Hostname",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Hostname",
+          "sensitive" : false
+        },
+        "Reject Zero-Byte Files" : {
+          "displayName" : "Reject Zero-Byte Files",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Reject Zero-Byte Files",
+          "sensitive" : false
+        },
+        "Remote Path" : {
+          "displayName" : "Remote Path",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Remote Path",
+          "sensitive" : false
+        },
+        "Host Key File" : {
+          "displayName" : "Host Key File",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Host Key File",
+          "resourceDefinition" : {
+            "cardinality" : "SINGLE",
+            "resourceTypes" : [ "FILE" ]
+          },
+          "sensitive" : false
+        },
+        "Use Compression" : {
+          "displayName" : "Use Compression",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Use Compression",
+          "sensitive" : false
+        },
+        "Message Authentication Codes Allowed" : {
+          "displayName" : "Message Authentication Codes Allowed",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Message Authentication Codes Allowed",
+          "sensitive" : false
+        },
+        "Send Keep Alive On Timeout" : {
+          "displayName" : "Send Keep Alive On Timeout",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Send Keep Alive On Timeout",
+          "sensitive" : false
+        },
+        "Data Timeout" : {
+          "displayName" : "Data Timeout",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Data Timeout",
+          "sensitive" : false
+        },
+        "Private Key Path" : {
+          "displayName" : "Private Key Path",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Private Key Path",
+          "resourceDefinition" : {
+            "cardinality" : "SINGLE",
+            "resourceTypes" : [ "FILE" ]
+          },
+          "sensitive" : false
+        },
+        "Username" : {
+          "displayName" : "Username",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Username",
+          "sensitive" : false
+        },
+        "Batch Size" : {
+          "displayName" : "Batch Size",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Batch Size",
+          "sensitive" : false
+        },
+        "Key Exchange Algorithms Allowed" : {
+          "displayName" : "Key Exchange Algorithms Allowed",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Key Exchange Algorithms Allowed",
+          "sensitive" : false
+        },
+        "Key Algorithms Allowed" : {
+          "displayName" : "Key Algorithms Allowed",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Key Algorithms Allowed",
+          "sensitive" : false
+        }
+      },
+      "retriedRelationships" : [ ],
+      "retryCount" : 10,
+      "runDurationMillis" : 0,
+      "scheduledState" : "ENABLED",
+      "schedulingPeriod" : "* * * * * ?",
+      "schedulingStrategy" : "CRON_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.PutSFTP",
+      "yieldDuration" : "1 sec"
+    }, {
+      "autoTerminatedRelationships" : [ ],
+      "backoffMechanism" : "PENALIZE_FLOWFILE",
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "2.2.0"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "flow-contents-group",
       "identifier" : "9b9287a1-0196-1000-5704-382b3de74502",
       "maxBackoffPeriod" : "10 mins",
       "name" : "GetFile",
@@ -1585,6 +1846,111 @@
       "schedulingStrategy" : "TIMER_DRIVEN",
       "style" : { },
       "type" : "org.apache.nifi.processors.standard.GetFile",
+      "yieldDuration" : "1 sec"
+    }, {
+      "autoTerminatedRelationships" : [ ],
+      "backoffMechanism" : "PENALIZE_FLOWFILE",
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "2.2.0"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "fcc572e7-8898-3165-89c4-f1d62f759ea5",
+      "maxBackoffPeriod" : "10 mins",
+      "name" : "ExecuteStreamCommand",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 208.0,
+        "y" : 1120.0
+      },
+      "properties" : {
+        "argumentsStrategy" : "Command Arguments Property",
+        "Max Attribute Length" : "256",
+        "Working Directory" : "/tmp",
+        "Command Path" : "/usr/bin/ssh",
+        "Argument Delimiter" : ";",
+        "Ignore STDIN" : "false",
+        "Command Arguments" : "ssh xuedua086@hadoop.cesga.es \"hdfs dfs -put -f /home/xunta/edu/a086/datasets_meteogalicia_provincia /user/xuedua086\"\n"
+      },
+      "propertyDescriptors" : {
+        "argumentsStrategy" : {
+          "displayName" : "Command Arguments Strategy",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "argumentsStrategy",
+          "sensitive" : false
+        },
+        "Max Attribute Length" : {
+          "displayName" : "Max Attribute Length",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Max Attribute Length",
+          "sensitive" : false
+        },
+        "Output MIME Type" : {
+          "displayName" : "Output MIME Type",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Output MIME Type",
+          "sensitive" : false
+        },
+        "Working Directory" : {
+          "displayName" : "Working Directory",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Working Directory",
+          "sensitive" : false
+        },
+        "Command Path" : {
+          "displayName" : "Command Path",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Command Path",
+          "sensitive" : false
+        },
+        "Output Destination Attribute" : {
+          "displayName" : "Output Destination Attribute",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Output Destination Attribute",
+          "sensitive" : false
+        },
+        "Argument Delimiter" : {
+          "displayName" : "Argument Delimiter",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Argument Delimiter",
+          "sensitive" : false
+        },
+        "Ignore STDIN" : {
+          "displayName" : "Ignore STDIN",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Ignore STDIN",
+          "sensitive" : false
+        },
+        "Command Arguments" : {
+          "displayName" : "Command Arguments",
+          "dynamic" : false,
+          "identifiesControllerService" : false,
+          "name" : "Command Arguments",
+          "sensitive" : false
+        }
+      },
+      "retriedRelationships" : [ ],
+      "retryCount" : 10,
+      "runDurationMillis" : 0,
+      "scheduledState" : "ENABLED",
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.ExecuteStreamCommand",
       "yieldDuration" : "1 sec"
     }, {
       "autoTerminatedRelationships" : [ "success", "failure" ],
