@@ -1281,8 +1281,8 @@
       },
       "properties" : {
         "Port" : "22",
-        "Create Directory" : "false",
-        "Conflict Resolution" : "NONE",
+        "Create Directory" : "true",
+        "Conflict Resolution" : "REPLACE",
         "Disable Directory Listing" : "false",
         "Connection Timeout" : "30 sec",
         "Dot Rename" : "true",
@@ -1293,6 +1293,7 @@
         "Use Compression" : "false",
         "Send Keep Alive On Timeout" : "true",
         "Data Timeout" : "30 sec",
+        "Private Key Path" : "/home/cesgaxuser/.ssh/id_rsa",
         "Username" : "xuedua086",
         "Batch Size" : "500"
       },
