@@ -145,7 +145,7 @@
       },
       "flowFileExpiration" : "0 sec",
       "groupIdentifier" : "flow-contents-group",
-      "identifier" : "708c3112-0925-3eca-ae28-3aa46a478530",
+      "identifier" : "4f1ae050-3ede-38c2-aca0-8db6d3b587bf",
       "labelIndex" : 0,
       "loadBalanceCompression" : "DO_NOT_COMPRESS",
       "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -229,73 +229,13 @@
       "destination" : {
         "comments" : "",
         "groupId" : "flow-contents-group",
-        "id" : "9b9287a0-0196-1000-0685-f0975af42524",
-        "name" : "PutFile",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "9b9287a4-0196-1000-ccd1-af384eca342f",
-      "labelIndex" : 0,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "success" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "9b92879f-0196-1000-17e6-5e463be46d3b",
-        "name" : "UpdateAttribute",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "9b94bb62-0196-1000-a081-bb13eb0797ae",
-        "name" : "PutFile",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "9b94bb65-0196-1000-ed7e-921131df9288",
-      "labelIndex" : 0,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "success" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "9b94bb60-0196-1000-659a-dfb003ef72a0",
-        "name" : "UpdateAttribute",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
         "id" : "9b93f2f4-0196-1000-cbc4-0671eafc9e83",
         "name" : "PutFile",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
       "groupIdentifier" : "flow-contents-group",
-      "identifier" : "9b93f2f8-0196-1000-1918-87e37b016dda",
+      "identifier" : "0704ff2f-9872-3c11-bb2a-805067d8414f",
       "labelIndex" : 0,
       "loadBalanceCompression" : "DO_NOT_COMPRESS",
       "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -307,6 +247,36 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "9b93f2f3-0196-1000-8e63-67951e9470dc",
+        "name" : "UpdateAttribute",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "9b9287a0-0196-1000-0685-f0975af42524",
+        "name" : "PutFile",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "4320bd6b-2e39-3a14-9eaa-a5e6b20563cb",
+      "labelIndex" : 0,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "9b92879f-0196-1000-17e6-5e463be46d3b",
         "name" : "UpdateAttribute",
         "type" : "PROCESSOR"
       },
@@ -338,6 +308,36 @@
         "groupId" : "flow-contents-group",
         "id" : "9b92879e-0196-1000-4339-ad7fd0093404",
         "name" : "MergeRecord",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "9b94bb62-0196-1000-a081-bb13eb0797ae",
+        "name" : "PutFile",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "2e138b28-816a-3867-b3a3-1c76f0f7bfce",
+      "labelIndex" : 0,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "9b94bb60-0196-1000-659a-dfb003ef72a0",
+        "name" : "UpdateAttribute",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -847,12 +847,13 @@
         "y" : -32.0
       },
       "properties" : {
+        "max-bin-age" : "30 sec",
         "Attribute Strategy" : "Keep Only Common Attributes",
         "min-records" : "1",
         "record-writer" : "4a799005-5495-3c74-9105-15aea8f298b4",
         "merge-strategy" : "Bin-Packing Algorithm",
         "record-reader" : "30afc5a6-9ae1-3209-90d6-6c48ada895da",
-        "max-records" : "1000",
+        "max-records" : "100000",
         "min-bin-size" : "0 B",
         "max.bin.count" : "10"
       },
@@ -967,12 +968,13 @@
         "y" : -32.0
       },
       "properties" : {
+        "max-bin-age" : "30 sec",
         "Attribute Strategy" : "Keep Only Common Attributes",
         "min-records" : "1",
         "record-writer" : "4a799005-5495-3c74-9105-15aea8f298b4",
         "merge-strategy" : "Bin-Packing Algorithm",
         "record-reader" : "30afc5a6-9ae1-3209-90d6-6c48ada895da",
-        "max-records" : "1000",
+        "max-records" : "100000",
         "min-bin-size" : "0 B",
         "max.bin.count" : "10"
       },
@@ -1087,12 +1089,13 @@
         "y" : -32.0
       },
       "properties" : {
+        "max-bin-age" : "30 sec",
         "Attribute Strategy" : "Keep Only Common Attributes",
         "min-records" : "1",
         "record-writer" : "4a799005-5495-3c74-9105-15aea8f298b4",
         "merge-strategy" : "Bin-Packing Algorithm",
         "record-reader" : "30afc5a6-9ae1-3209-90d6-6c48ada895da",
-        "max-records" : "1000",
+        "max-records" : "100000",
         "min-bin-size" : "0 B",
         "max.bin.count" : "10"
       },
@@ -1258,7 +1261,7 @@
       "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
       "yieldDuration" : "1 sec"
     }, {
-      "autoTerminatedRelationships" : [ ],
+      "autoTerminatedRelationships" : [ "reject", "success", "failure" ],
       "backoffMechanism" : "PENALIZE_FLOWFILE",
       "bulletinLevel" : "WARN",
       "bundle" : {
@@ -1277,7 +1280,7 @@
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : 208.0,
-        "y" : 856.0
+        "y" : 944.0
       },
       "properties" : {
         "Port" : "22",
@@ -1293,7 +1296,7 @@
         "Use Compression" : "false",
         "Send Keep Alive On Timeout" : "true",
         "Data Timeout" : "30 sec",
-        "Private Key Path" : "/home/cesgaxuser/.ssh/id_rsa",
+        "Private Key Path" : "/opt/nifi/.ssh/id_rsa",
         "Username" : "xuedua086",
         "Batch Size" : "500"
       },
@@ -1642,7 +1645,7 @@
       "retryCount" : 10,
       "runDurationMillis" : 0,
       "scheduledState" : "ENABLED",
-      "schedulingPeriod" : "0 sec",
+      "schedulingPeriod" : "1 sec",
       "schedulingStrategy" : "TIMER_DRIVEN",
       "style" : { },
       "type" : "org.apache.nifi.processors.standard.GetFile",
@@ -1843,7 +1846,7 @@
       "retryCount" : 10,
       "runDurationMillis" : 0,
       "scheduledState" : "ENABLED",
-      "schedulingPeriod" : "0 sec",
+      "schedulingPeriod" : "1 sec",
       "schedulingStrategy" : "TIMER_DRIVEN",
       "style" : { },
       "type" : "org.apache.nifi.processors.standard.GetFile",
@@ -1972,8 +1975,8 @@
       "name" : "PutFile",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 984.0,
-        "y" : 536.0
+        "x" : 1752.0,
+        "y" : 544.0
       },
       "properties" : {
         "Create Missing Directories" : "true",
@@ -2170,7 +2173,7 @@
       "retryCount" : 10,
       "runDurationMillis" : 0,
       "scheduledState" : "ENABLED",
-      "schedulingPeriod" : "0 sec",
+      "schedulingPeriod" : "1 sec",
       "schedulingStrategy" : "TIMER_DRIVEN",
       "style" : { },
       "type" : "org.apache.nifi.processors.standard.GetFile",
@@ -2298,7 +2301,7 @@
       "retryCount" : 10,
       "runDurationMillis" : 0,
       "scheduledState" : "ENABLED",
-      "schedulingPeriod" : "0 sec",
+      "schedulingPeriod" : "1 sec",
       "schedulingStrategy" : "TIMER_DRIVEN",
       "style" : { },
       "type" : "org.apache.nifi.processors.standard.GetFile",
@@ -2399,12 +2402,13 @@
         "y" : -32.0
       },
       "properties" : {
+        "max-bin-age" : "30 sec",
         "Attribute Strategy" : "Keep Only Common Attributes",
         "min-records" : "1",
         "record-writer" : "4a799005-5495-3c74-9105-15aea8f298b4",
         "merge-strategy" : "Bin-Packing Algorithm",
         "record-reader" : "30afc5a6-9ae1-3209-90d6-6c48ada895da",
-        "max-records" : "1000",
+        "max-records" : "100000",
         "min-bin-size" : "0 B",
         "max.bin.count" : "10"
       },
@@ -2588,7 +2592,7 @@
       "name" : "PutFile",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -32.0,
+        "x" : -736.0,
         "y" : 536.0
       },
       "properties" : {
@@ -2682,7 +2686,7 @@
       "name" : "PutFile",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -536.0,
+        "x" : -1176.0,
         "y" : 536.0
       },
       "properties" : {
@@ -2776,7 +2780,7 @@
       "name" : "PutFile",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 456.0,
+        "x" : 1336.0,
         "y" : 536.0
       },
       "properties" : {
