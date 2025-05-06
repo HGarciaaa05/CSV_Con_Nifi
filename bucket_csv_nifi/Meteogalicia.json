@@ -19,156 +19,6 @@
       "destination" : {
         "comments" : "",
         "groupId" : "flow-contents-group",
-        "id" : "9b94bb61-0196-1000-915c-ed40227bb86e",
-        "name" : "MergeRecord",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "9b94bb63-0196-1000-068c-96e1ce3a1e3f",
-      "labelIndex" : 0,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "success" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "9b94bb5f-0196-1000-90b4-8331c5bcf3a5",
-        "name" : "GetFile",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "fcc572e7-8898-3165-89c4-f1d62f759ea5",
-        "name" : "ExecuteStreamCommand",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "51802633-39c1-38e5-89cf-41d226adcc8d",
-      "labelIndex" : 0,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "success" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "d0e8033e-fe77-3c5e-989b-a80e121dc1c7",
-        "name" : "PutSFTP",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "9b93f2f3-0196-1000-8e63-67951e9470dc",
-        "name" : "UpdateAttribute",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "9b93f2f7-0196-1000-b0c0-4a788882f57e",
-      "labelIndex" : 0,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "merged" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "9b93f2f2-0196-1000-1bf4-d2067c4ce987",
-        "name" : "MergeRecord",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "9b92879f-0196-1000-17e6-5e463be46d3b",
-        "name" : "UpdateAttribute",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "9b9287a3-0196-1000-4fef-24c7158c91dc",
-      "labelIndex" : 0,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "merged" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "9b92879e-0196-1000-4339-ad7fd0093404",
-        "name" : "MergeRecord",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "9b94bb60-0196-1000-659a-dfb003ef72a0",
-        "name" : "UpdateAttribute",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "9b94bb64-0196-1000-07da-bfb9fa2c3a64",
-      "labelIndex" : 0,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "merged" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "9b94bb61-0196-1000-915c-ed40227bb86e",
-        "name" : "MergeRecord",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "2 GB",
-      "backPressureObjectThreshold" : 1000000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
         "id" : "b025cbcb-e5c2-3129-968c-c3702954d5e4",
         "name" : "MergeRecord",
         "type" : "PROCESSOR"
@@ -188,66 +38,6 @@
         "groupId" : "flow-contents-group",
         "id" : "5a22dd82-cb29-3b2b-97c3-083ddaa30176",
         "name" : "GetFile",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "d0e8033e-fe77-3c5e-989b-a80e121dc1c7",
-        "name" : "PutSFTP",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "76dcf198-c6f5-3b38-944f-c6feab05ccd1",
-      "labelIndex" : 0,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "success" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "9b93f2f3-0196-1000-8e63-67951e9470dc",
-        "name" : "UpdateAttribute",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "d0e8033e-fe77-3c5e-989b-a80e121dc1c7",
-        "name" : "PutSFTP",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "4078e721-4b9b-3800-b43b-63e6092704f8",
-      "labelIndex" : 0,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "success" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "341226f4-73fa-3a24-ab7d-3d37a704a514",
-        "name" : "UpdateAttribute",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -277,6 +67,36 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "9b93f2f5-0196-1000-0404-8b7c9a32d17c",
+        "name" : "GetFile",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "2 GB",
+      "backPressureObjectThreshold" : 1000000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "9b94bb61-0196-1000-915c-ed40227bb86e",
+        "name" : "MergeRecord",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "9b94bb63-0196-1000-068c-96e1ce3a1e3f",
+      "labelIndex" : 0,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "9b94bb5f-0196-1000-90b4-8331c5bcf3a5",
         "name" : "GetFile",
         "type" : "PROCESSOR"
       },
@@ -349,13 +169,133 @@
       "destination" : {
         "comments" : "",
         "groupId" : "flow-contents-group",
-        "id" : "d0e8033e-fe77-3c5e-989b-a80e121dc1c7",
-        "name" : "PutSFTP",
+        "id" : "9b93f2f3-0196-1000-8e63-67951e9470dc",
+        "name" : "UpdateAttribute",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
       "groupIdentifier" : "flow-contents-group",
-      "identifier" : "4996831e-b4e0-3e3e-9ea1-5c6926183c2a",
+      "identifier" : "9b93f2f7-0196-1000-b0c0-4a788882f57e",
+      "labelIndex" : 0,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "merged" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "9b93f2f2-0196-1000-1bf4-d2067c4ce987",
+        "name" : "MergeRecord",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "fcc572e7-8898-3165-89c4-f1d62f759ea5",
+        "name" : "ExecuteStreamCommand",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "c5d2b5d4-e0bb-377d-8974-30c4f1695675",
+      "labelIndex" : 0,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "341226f4-73fa-3a24-ab7d-3d37a704a514",
+        "name" : "UpdateAttribute",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "fcc572e7-8898-3165-89c4-f1d62f759ea5",
+        "name" : "ExecuteStreamCommand",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "a236260c-1933-3579-879a-aa6b6267f060",
+      "labelIndex" : 0,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "9b93f2f3-0196-1000-8e63-67951e9470dc",
+        "name" : "UpdateAttribute",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "fcc572e7-8898-3165-89c4-f1d62f759ea5",
+        "name" : "ExecuteStreamCommand",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "15a63f1a-2bc5-381b-aaa2-33da937d1e64",
+      "labelIndex" : 0,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "9b92879f-0196-1000-17e6-5e463be46d3b",
+        "name" : "UpdateAttribute",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "fcc572e7-8898-3165-89c4-f1d62f759ea5",
+        "name" : "ExecuteStreamCommand",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "0b2ecf23-8120-3d73-8e96-70fafb854cf3",
       "labelIndex" : 0,
       "loadBalanceCompression" : "DO_NOT_COMPRESS",
       "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -379,25 +319,55 @@
       "destination" : {
         "comments" : "",
         "groupId" : "flow-contents-group",
-        "id" : "d0e8033e-fe77-3c5e-989b-a80e121dc1c7",
-        "name" : "PutSFTP",
+        "id" : "9b92879f-0196-1000-17e6-5e463be46d3b",
+        "name" : "UpdateAttribute",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
       "groupIdentifier" : "flow-contents-group",
-      "identifier" : "ed1f522b-4629-3845-b6c6-626cf55f9a24",
+      "identifier" : "9b9287a3-0196-1000-4fef-24c7158c91dc",
       "labelIndex" : 0,
       "loadBalanceCompression" : "DO_NOT_COMPRESS",
       "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
       "name" : "",
       "partitioningAttribute" : "",
       "prioritizers" : [ ],
-      "selectedRelationships" : [ "success" ],
+      "selectedRelationships" : [ "merged" ],
       "source" : {
         "comments" : "",
         "groupId" : "flow-contents-group",
-        "id" : "9b92879f-0196-1000-17e6-5e463be46d3b",
+        "id" : "9b92879e-0196-1000-4339-ad7fd0093404",
+        "name" : "MergeRecord",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "9b94bb60-0196-1000-659a-dfb003ef72a0",
         "name" : "UpdateAttribute",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "9b94bb64-0196-1000-07da-bfb9fa2c3a64",
+      "labelIndex" : 0,
+      "loadBalanceCompression" : "DO_NOT_COMPRESS",
+      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+      "name" : "",
+      "partitioningAttribute" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "merged" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "flow-contents-group",
+        "id" : "9b94bb61-0196-1000-915c-ed40227bb86e",
+        "name" : "MergeRecord",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -1291,268 +1261,6 @@
       "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
       "yieldDuration" : "1 sec"
     }, {
-      "autoTerminatedRelationships" : [ "reject", "failure" ],
-      "backoffMechanism" : "PENALIZE_FLOWFILE",
-      "bulletinLevel" : "WARN",
-      "bundle" : {
-        "artifact" : "nifi-standard-nar",
-        "group" : "org.apache.nifi",
-        "version" : "2.2.0"
-      },
-      "comments" : "",
-      "componentType" : "PROCESSOR",
-      "concurrentlySchedulableTaskCount" : 1,
-      "executionNode" : "ALL",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "d0e8033e-fe77-3c5e-989b-a80e121dc1c7",
-      "maxBackoffPeriod" : "10 mins",
-      "name" : "PutSFTP",
-      "penaltyDuration" : "30 sec",
-      "position" : {
-        "x" : 208.0,
-        "y" : 944.0
-      },
-      "properties" : {
-        "Port" : "22",
-        "Create Directory" : "true",
-        "Conflict Resolution" : "REPLACE",
-        "Disable Directory Listing" : "false",
-        "Connection Timeout" : "30 sec",
-        "Dot Rename" : "true",
-        "Strict Host Key Checking" : "false",
-        "Hostname" : "hadoop.cesga.es",
-        "Reject Zero-Byte Files" : "true",
-        "Remote Path" : "/home/xunta/edu/a086/datasets_meteogalicia_provincia",
-        "Use Compression" : "false",
-        "Send Keep Alive On Timeout" : "true",
-        "Data Timeout" : "30 sec",
-        "Private Key Path" : "/opt/nifi/.ssh/id_rsa",
-        "Username" : "xuedua086",
-        "Batch Size" : "500"
-      },
-      "propertyDescriptors" : {
-        "Remote Owner" : {
-          "displayName" : "Remote Owner",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Remote Owner",
-          "sensitive" : false
-        },
-        "Port" : {
-          "displayName" : "Port",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Port",
-          "sensitive" : false
-        },
-        "proxy-configuration-service" : {
-          "displayName" : "Proxy Configuration Service",
-          "dynamic" : false,
-          "identifiesControllerService" : true,
-          "name" : "proxy-configuration-service",
-          "sensitive" : false
-        },
-        "Create Directory" : {
-          "displayName" : "Create Directory",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Create Directory",
-          "sensitive" : false
-        },
-        "Conflict Resolution" : {
-          "displayName" : "Conflict Resolution",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Conflict Resolution",
-          "sensitive" : false
-        },
-        "Ciphers Allowed" : {
-          "displayName" : "Ciphers Allowed",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Ciphers Allowed",
-          "sensitive" : false
-        },
-        "Disable Directory Listing" : {
-          "displayName" : "Disable Directory Listing",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Disable Directory Listing",
-          "sensitive" : false
-        },
-        "Temporary Filename" : {
-          "displayName" : "Temporary Filename",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Temporary Filename",
-          "sensitive" : false
-        },
-        "Remote Group" : {
-          "displayName" : "Remote Group",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Remote Group",
-          "sensitive" : false
-        },
-        "Private Key Passphrase" : {
-          "displayName" : "Private Key Passphrase",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Private Key Passphrase",
-          "sensitive" : true
-        },
-        "Connection Timeout" : {
-          "displayName" : "Connection Timeout",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Connection Timeout",
-          "sensitive" : false
-        },
-        "Permissions" : {
-          "displayName" : "Permissions",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Permissions",
-          "sensitive" : false
-        },
-        "Dot Rename" : {
-          "displayName" : "Dot Rename",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Dot Rename",
-          "sensitive" : false
-        },
-        "Last Modified Time" : {
-          "displayName" : "Last Modified Time",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Last Modified Time",
-          "sensitive" : false
-        },
-        "Strict Host Key Checking" : {
-          "displayName" : "Strict Host Key Checking",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Strict Host Key Checking",
-          "sensitive" : false
-        },
-        "Password" : {
-          "displayName" : "Password",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Password",
-          "sensitive" : true
-        },
-        "Hostname" : {
-          "displayName" : "Hostname",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Hostname",
-          "sensitive" : false
-        },
-        "Reject Zero-Byte Files" : {
-          "displayName" : "Reject Zero-Byte Files",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Reject Zero-Byte Files",
-          "sensitive" : false
-        },
-        "Remote Path" : {
-          "displayName" : "Remote Path",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Remote Path",
-          "sensitive" : false
-        },
-        "Host Key File" : {
-          "displayName" : "Host Key File",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Host Key File",
-          "resourceDefinition" : {
-            "cardinality" : "SINGLE",
-            "resourceTypes" : [ "FILE" ]
-          },
-          "sensitive" : false
-        },
-        "Use Compression" : {
-          "displayName" : "Use Compression",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Use Compression",
-          "sensitive" : false
-        },
-        "Message Authentication Codes Allowed" : {
-          "displayName" : "Message Authentication Codes Allowed",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Message Authentication Codes Allowed",
-          "sensitive" : false
-        },
-        "Send Keep Alive On Timeout" : {
-          "displayName" : "Send Keep Alive On Timeout",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Send Keep Alive On Timeout",
-          "sensitive" : false
-        },
-        "Data Timeout" : {
-          "displayName" : "Data Timeout",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Data Timeout",
-          "sensitive" : false
-        },
-        "Private Key Path" : {
-          "displayName" : "Private Key Path",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Private Key Path",
-          "resourceDefinition" : {
-            "cardinality" : "SINGLE",
-            "resourceTypes" : [ "FILE" ]
-          },
-          "sensitive" : false
-        },
-        "Username" : {
-          "displayName" : "Username",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Username",
-          "sensitive" : false
-        },
-        "Batch Size" : {
-          "displayName" : "Batch Size",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Batch Size",
-          "sensitive" : false
-        },
-        "Key Exchange Algorithms Allowed" : {
-          "displayName" : "Key Exchange Algorithms Allowed",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Key Exchange Algorithms Allowed",
-          "sensitive" : false
-        },
-        "Key Algorithms Allowed" : {
-          "displayName" : "Key Algorithms Allowed",
-          "dynamic" : false,
-          "identifiesControllerService" : false,
-          "name" : "Key Algorithms Allowed",
-          "sensitive" : false
-        }
-      },
-      "retriedRelationships" : [ ],
-      "retryCount" : 10,
-      "runDurationMillis" : 0,
-      "scheduledState" : "ENABLED",
-      "schedulingPeriod" : "0/5 * * * * ?",
-      "schedulingStrategy" : "CRON_DRIVEN",
-      "style" : { },
-      "type" : "org.apache.nifi.processors.standard.PutSFTP",
-      "yieldDuration" : "1 sec"
-    }, {
       "autoTerminatedRelationships" : [ ],
       "backoffMechanism" : "PENALIZE_FLOWFILE",
       "bulletinLevel" : "WARN",
@@ -1900,17 +1608,17 @@
       "name" : "ExecuteStreamCommand",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 208.0,
-        "y" : 1288.0
+        "x" : 192.0,
+        "y" : 728.0
       },
       "properties" : {
         "argumentsStrategy" : "Command Arguments Property",
         "Max Attribute Length" : "256",
         "Working Directory" : "/tmp",
-        "Command Path" : "/usr/bin/ssh",
+        "Command Path" : "/bin/bash",
         "Argument Delimiter" : ";",
         "Ignore STDIN" : "false",
-        "Command Arguments" : "ssh xuedua086@hadoop.cesga.es \"hdfs dfs -put -f /home/xunta/edu/a086/datasets_meteogalicia_provincia /user/xuedua086\"\n"
+        "Command Arguments" : "/opt/nifi/compartido/script.sh"
       },
       "propertyDescriptors" : {
         "argumentsStrategy" : {
@@ -1981,8 +1689,8 @@
       "retryCount" : 10,
       "runDurationMillis" : 0,
       "scheduledState" : "ENABLED",
-      "schedulingPeriod" : "0 sec",
-      "schedulingStrategy" : "TIMER_DRIVEN",
+      "schedulingPeriod" : "*/30 * * * * ?",
+      "schedulingStrategy" : "CRON_DRIVEN",
       "style" : { },
       "type" : "org.apache.nifi.processors.standard.ExecuteStreamCommand",
       "yieldDuration" : "1 sec"
