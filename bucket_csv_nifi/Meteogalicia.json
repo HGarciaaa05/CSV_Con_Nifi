@@ -853,7 +853,7 @@
         "record-writer" : "4a799005-5495-3c74-9105-15aea8f298b4",
         "merge-strategy" : "Bin-Packing Algorithm",
         "record-reader" : "30afc5a6-9ae1-3209-90d6-6c48ada895da",
-        "max-records" : "100000",
+        "max-records" : "1000000",
         "min-bin-size" : "0 B",
         "max.bin.count" : "10"
       },
@@ -974,7 +974,7 @@
         "record-writer" : "4a799005-5495-3c74-9105-15aea8f298b4",
         "merge-strategy" : "Bin-Packing Algorithm",
         "record-reader" : "30afc5a6-9ae1-3209-90d6-6c48ada895da",
-        "max-records" : "100000",
+        "max-records" : "1000000",
         "min-bin-size" : "0 B",
         "max.bin.count" : "10"
       },
@@ -1095,7 +1095,7 @@
         "record-writer" : "4a799005-5495-3c74-9105-15aea8f298b4",
         "merge-strategy" : "Bin-Packing Algorithm",
         "record-reader" : "30afc5a6-9ae1-3209-90d6-6c48ada895da",
-        "max-records" : "100000",
+        "max-records" : "1000000",
         "min-bin-size" : "0 B",
         "max.bin.count" : "10"
       },
@@ -1615,9 +1615,9 @@
         "argumentsStrategy" : "Command Arguments Property",
         "Max Attribute Length" : "256",
         "Working Directory" : "/tmp",
-        "Command Path" : "/bin/bash",
+        "Command Path" : "/usr/bin/bash",
         "Argument Delimiter" : ";",
-        "Ignore STDIN" : "false",
+        "Ignore STDIN" : "true",
         "Command Arguments" : "/opt/nifi/compartido/script.sh"
       },
       "propertyDescriptors" : {
@@ -2052,7 +2052,7 @@
         "record-writer" : "4a799005-5495-3c74-9105-15aea8f298b4",
         "merge-strategy" : "Bin-Packing Algorithm",
         "record-reader" : "30afc5a6-9ae1-3209-90d6-6c48ada895da",
-        "max-records" : "100000",
+        "max-records" : "1000000",
         "min-bin-size" : "0 B",
         "max.bin.count" : "10"
       },
