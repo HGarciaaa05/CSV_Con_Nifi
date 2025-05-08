@@ -1084,7 +1084,7 @@
       "name" : "PutFile",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 472.0,
+        "x" : 456.0,
         "y" : 536.0
       },
       "properties" : {
@@ -2638,7 +2638,7 @@
       "name" : "PutFile",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -528.0,
+        "x" : -536.0,
         "y" : 528.0
       },
       "properties" : {
